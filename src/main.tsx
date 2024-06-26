@@ -1,8 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
-import App from './App.tsx'
-
+import Home from './pages/Home.tsx'
+import Skills from './pages/Skills.tsx'
+import Contact from './pages/Contact.tsx'
+import "animate.css"
 import './styles.css'
 
 
@@ -10,15 +12,15 @@ import './styles.css'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
+    element: <Home />,
   },
   {
     path: '/skills',
-    element: <App />,
+    element: <Skills />,
   },
   {
     path: '/contact',
-    element: <App />,
+    element: <Contact />,
   },
 ])
 
