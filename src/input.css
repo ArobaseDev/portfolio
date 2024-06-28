@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
 
 body {
+  @apply text-white;
   font-family: "Sen";
   background-color: rgba(21, 7, 48, 0.961);
 }

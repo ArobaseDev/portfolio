@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
 import Home from './pages/Home.tsx'
 
-import Skills from './pages/skills.tsx'
-import Contact from './pages/contact.tsx'
+import Skills from './pages/Skills.tsx'
+import Contact from './pages/Contact.tsx'
 import "animate.css"
 import './styles.css'
 

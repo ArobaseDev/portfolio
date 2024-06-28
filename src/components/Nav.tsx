@@ -2,8 +2,8 @@ import {NavLink} from "react-router-dom";
 
 export default function Nav() {
   return (
-    <nav className="flex flex-row justify-around">
-      <ul>
+    <nav className="flex flex-row">
+      <ul className="">
         <li>
           <NavLink to="/skills">Mes compétences</NavLink>
         </li>
