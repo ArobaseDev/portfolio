@@ -67,6 +67,7 @@ export default function Skill () {
     <section className="">
     <Project prop={choice}/>
     </section>
+    <div>tetst</div>
 </>
   )
 }
